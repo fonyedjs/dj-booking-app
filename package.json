@@ -1,0 +1,19 @@
+{
+  "name": "dj-booking-app",
+  "version": "1.0.0",
+  "description": "DJ booking app backend for fonyedjs.github.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fonyedjs/dj-booking-app.git"
+  },
+  "author": "hippybear",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fonyedjs/dj-booking-app/issues"
+  },
+  "homepage": "https://github.com/fonyedjs/dj-booking-app#readme"
+}
