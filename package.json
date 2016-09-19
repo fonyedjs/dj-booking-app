@@ -2,10 +2,7 @@
   "name": "dj-booking-app",
   "version": "1.0.0",
   "description": "DJ booking app backend for fonyedjs.github.io",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fonyedjs/dj-booking-app.git"
@@ -16,5 +13,30 @@
     "url": "https://github.com/fonyedjs/dj-booking-app/issues"
   },
   "homepage": "https://github.com/fonyedjs/dj-booking-app#readme",
-  
+  "main": "server.js",
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "dependencies": {
+    "body-parser": "~1.0.x",
+    "cors": "^2.3.1",
+    "express": "~4.x",
+    "jsonwebtoken": "^5.7.0",
+    "leisure": "^0.1.0",
+    "moment": "^2.7.0",
+    "mongoose": "^4.5.1",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "passport-google-oauth": "^1.0.0",
+    "sanitizer": "^0.1.1"
+  },
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "should": "^3.3.1",
+    "supertest": "^0.12.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "NODE_ENV=test mocha --reporter spec test"
+  },
 }
