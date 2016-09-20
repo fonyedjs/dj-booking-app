@@ -26,7 +26,7 @@ app.use('/', routes.router);
 function start () {
   var port = process.env.PORT || 3000;
   app.listen(port);
-  console.log('Appoints service started on port ' + port);
+  console.log('Appoints service started on http://localhost:' + port);
 }
 
 exports.app = app;

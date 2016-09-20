@@ -7,7 +7,7 @@
 //
 var settings = {
   db: {
-    connectionString: 'mongodb://localhost/appointstest'
+    connectionString: 'mongodb://app:app@ds147975.mlab.com:47975/dj-booking-app'
   }, 
   authProviders: {
     facebook: { 
