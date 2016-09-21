@@ -1,40 +1,69 @@
 {
-  "name": "dj-booking-app",
-  "version": "1.0.0",
-  "description": "DJ booking app backend for fonyedjs.github.io",
+  "name": "hackathon-starter",
+  "version": "4.2.1",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fonyedjs/dj-booking-app.git"
-  },
-  "author": "https://github.com/fonyedjs/dj-booking-app/graphs/contributors",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/fonyedjs/dj-booking-app/issues"
-  },
-  "homepage": "https://github.com/fonyedjs/dj-booking-app#readme",
-  "engines": {
-    "node": ">= 4.0.0"
-  },
-  "dependencies": {
-    "body-parser": "~1.0.x",
-    "cors": "^2.3.1",
-    "express": "~4.x",
-    "jsonwebtoken": "^5.7.0",
-    "leisure": "^0.1.0",
-    "moment": "^2.7.0",
-    "mongoose": "^4.5.1",
-    "passport": "^0.3.2",
-    "passport-facebook": "^2.1.1",
-    "passport-google-oauth": "^1.0.0",
-    "sanitizer": "^0.1.1"
-  },
-  "devDependencies": {
-    "mocha": "^1.18.2",
-    "should": "^3.3.1",
-    "supertest": "^0.12.1"
+    "url": "https://github.com/sahat/hackathon-starter.git"
   },
   "scripts": {
-    "start": "node index.js",
-    "test": "NODE_ENV=test mocha --reporter spec test"
-  }
+    "start": "node app.js",
+    "test": "mocha --reporter spec --timeout 5000"
+  },
+  "dependencies": {
+    "async": "^2.0.1",
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.15.2",
+    "chalk": "^1.1.3",
+    "cheerio": "^0.22.0",
+    "clockwork": "^0.1.4",
+    "compression": "^1.6.2",
+    "connect-mongo": "^1.3.2",
+    "dotenv": "^2.0.0",
+    "errorhandler": "^1.4.3",
+    "express": "^4.14.0",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.14.1",
+    "express-validator": "^2.20.8",
+    "fbgraph": "^1.3.0",
+    "github": "^3.1.0",
+    "instagram-node": "^0.5.8",
+    "lastfm": "^0.9.2",
+    "lob": "^3.9.0",
+    "lodash": "^4.15.0",
+    "lusca": "^1.4.1",
+    "mongoose": "^4.6.0",
+    "morgan": "^1.7.0",
+    "multer": "^1.2.0",
+    "node-foursquare": "^0.3.0",
+    "node-linkedin": "^0.5.4",
+    "node-sass-middleware": "^0.9.8",
+    "nodemailer": "^2.6.0",
+    "passport": "0.3.2",
+    "passport-facebook": "^2.1.1",
+    "passport-github": "^1.1.0",
+    "passport-google-oauth": "^1.0.0",
+    "passport-instagram": "^1.0.0",
+    "passport-linkedin-oauth2": "^1.4.1",
+    "passport-local": "^1.0.0",
+    "passport-oauth": "^1.0.0",
+    "passport-openid": "^0.4.0",
+    "passport-twitter": "^1.0.4",
+    "paypal-rest-sdk": "^1.6.9",
+    "pug": "^2.0.0-beta6",
+    "request": "^2.74.0",
+    "stripe": "^4.11.0",
+    "tumblr.js": "^1.1.1",
+    "twilio": "^3.3.1-edge",
+    "twit": "^2.2.4",
+    "validator": "^5.6.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2",
+    "supertest": "^2.0.0"
+  },
+  "engines": {
+    "node": "6.1.0"
+  },
+  "license": "MIT"
 }
