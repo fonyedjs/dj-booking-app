@@ -2,10 +2,10 @@
  * GET /admin
  * List all appointments.
  */
-var Book = require('../models/Admin.js');
+var Admin = require('../models/Admin.js');
 
-exports.getBooks = (req, res) => {
-  Book.find((err, docs) => {
+exports.getAdmin = (req, res) => {
+  Admin.find((err, docs) => {
     res.render('admin', { admin: docs });
   });
 };
