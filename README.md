@@ -7,8 +7,6 @@ Features
 --------
 - Create, view, update and delete appointments
 - Token-based authentication with 3rd party providers (Facebook, Google, Github & Email)
-- Hypermedia API (HAL, see http://stateless.co/hal_specification.html)
-- Full integration test suite
 
 Getting started
 ---------------
@@ -30,4 +28,4 @@ Getting started
 
 Usage
 -----
-When the server is running locally, you can try the api with a browser, curl or an API testing tool like [Postman](http://www.getpostman.com/). If you don't have a local server running, you can try the API at https://appoints-api.azurewebsites.net/ instead of http://localhost:3000/
+When the server is running locally, you can try the api with a browser, curl or an API testing tool like [Postman](http://www.getpostman.com/).
